@@ -21,7 +21,7 @@ function Tmp(props) {
   const isDefault = !tmpReadFailure && !tmpReadPending && !tmpReadSuccess
 
   return (
-    <Pane display={'flex'} flexDirection={'column'} height={'98vh'}>
+    <Pane className={'tmp'}>
       <Text>tmp</Text>
 
       {isDefault && <Text>default</Text>}

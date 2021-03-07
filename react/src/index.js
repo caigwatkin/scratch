@@ -1,3 +1,5 @@
+import './styles/index.css'
+
 import App from './components/app'
 import { applyMiddleware, createStore } from 'redux'
 import { BrowserRouter } from 'react-router-dom'
